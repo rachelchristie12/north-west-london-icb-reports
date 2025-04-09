@@ -1,0 +1,175 @@
+/* Make the content area wider */
+.quarto-container {
+    max-width: 1200px;  /* Default is ~800px */
+    margin: 0 auto;     /* Center the content */
+}
+
+.panel-tabset .nav-item {
+    font-size: 16px;
+}
+
+table colgroup col {
+    width: auto !important;
+}
+.btn-action-primary {
+    color: white;
+    background-color: #005eb8 !important;
+}
+  
+.btn-action-primary:hover {
+    background-color: #ffeb3b !important;
+    color: #000 !important;
+}
+  
+.btn-action {
+    min-width: 165px;
+    border-radius: 30px;
+    border: none;
+}
+  
+.dt-buttons {
+      /* margin-bottom: -7px; */
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding-bottom: 0.3em;
+}
+  
+.figure-caption {
+    color: #373a3c;
+    font-size: 16px;
+}
+  
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+  
+.tab-content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #fff;
+}
+  
+.quarto-title-banner {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+  
+.quarto-title-meta  {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    background-color: #fff;
+}
+  
+#title-block-header.quarto-title-block {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    background-color: #fff;
+}
+  
+  /* Position the logo in the top-left */
+/*.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;  
+}*/
+
+body {
+    position: relative; /* Ensures proper positioning */
+}
+
+.quarto-title {
+      background-image: url("images/NWL_NHS_White.png");
+        display: block;
+        background-color: #005EB8;
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: 0px 0px;
+}
+  
+.quarto-title p.subtitle {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 300;
+}
+  
+.quarto-title h1.title {
+        text-indent: 4.0em;
+        font-size: 30px;
+        color:#fff;
+}
+  
+.callout-caption-container {
+    color: #005EB8;
+}
+  
+.callout {
+    background-color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: .25rem;
+}
+  
+.callout-note.callout {
+    border-left-color: #005EB8;
+    background-color: white;
+}
+  
+.callout.callout-style-simple {
+    padding: .01em .7em;
+}
+  
+.title {
+    font-size: 28px;
+    font-weight: lighter;
+}
+  
+h1, .h1 {
+    font-size:30px;
+    font-weight:600;
+}
+  
+h2, .h2 {
+   font-size:20px;
+   font-weight:600;
+}
+  
+h3, .h3 {
+   font-size:18px;
+   font-weight:600;
+}
+  
+.header-section-number {
+    color: #373a3c;
+}
+  
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  
+.opensans {
+    font-family: "Open Sans", sans-serif;
+}
+  
+body {
+   -moz-osx-font-smoothing:grayscale;
+   -webkit-font-smoothing:antialiased;
+}
+
+.leaflet-container {
+    border: 3px solid #1a5276;  /* Blue border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Soft shadow */
+}
