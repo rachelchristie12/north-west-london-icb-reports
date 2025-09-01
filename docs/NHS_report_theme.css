@@ -194,13 +194,6 @@ body {
   color: #333 !important;
 }
 
-/* Headings */
-h3, h4, h5, h6 {
-  color: #005EB8 !important;
-  font-weight: 600 !important;
-  line-height: 1.2 !important;
-}
-
 /* Links */
 a {
   color: #005EB8 !important;
@@ -237,26 +230,6 @@ table th {
   margin-bottom: 1rem !important;
 }
 
-/* Navigation */
-.navbar {
-  background-color: #005EB8 !important;
-}
-
-.navbar a {
-  color: #fff !important;
-}
-
-.navbar a:hover {
-  background-color: #003366 !important;
-}
-
-/* Footer */
-footer {
-  background-color: #005EB8 !important;
-  color: #fff !important;
-  padding: 1rem !important;
-  text-align: center !important;
-}
 
 /* Custom Logo */
 .logo {
