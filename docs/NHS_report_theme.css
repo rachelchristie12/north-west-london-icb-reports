@@ -5,7 +5,7 @@
 }
 
 .panel-tabset .nav-item {
-    font-size: 16px;
+    font-size: 16px !important;; 
 }
 
 .small-table {
@@ -25,9 +25,9 @@ table colgroup col {
 }
   
 .btn-action {
-    min-width: 165px;
-    border-radius: 30px;
-    border: none;
+    min-width: 165px !important;;
+    border-radius: 30px !important;;
+    border: none !important;;
 }
   
 .dt-buttons {
@@ -46,9 +46,9 @@ table colgroup col {
 }
   
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff;
+    color: #495057 !important;;
+    background-color: #fff !important;;
+    border-color: #dee2e6 #dee2e6 #fff !important;;
 }
   
 .tab-content {
@@ -92,7 +92,7 @@ table colgroup col {
 }*/
 
 body {
-    position: relative; /* Ensures proper positioning */
+    position: relative !important;; /* Ensures proper positioning */
 }
 
 .padded-left {
@@ -104,12 +104,12 @@ body {
 }
 
 .quarto-title {
-      background-image: url("images/NWL_NHS_White.png");
-        display: block;
-        background-color: #005EB8;
-        background-repeat: no-repeat;
-        background-size: 110px;
-        background-position: 0px 0px;
+      background-image: url("images/NWL_NHS_White.png") !important;;
+        display: block !important;;
+        background-color: #005EB8 !important;;
+        background-repeat: no-repeat !important;;
+        background-size: 110px !important;;
+        background-position: 0px 0px !important;;
 }
   
 .quarto-title p.subtitle {
@@ -125,19 +125,19 @@ body {
 }
   
 .callout-caption-container {
-    color: #005EB8;
+    color: #005EB8 !important;;
 }
   
 .callout {
-    background-color: white;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-radius: .25rem;
+    background-color: white !important;;
+    margin-top: 0.5rem !important;;
+    margin-bottom: 0.5rem !important;;
+    border-radius: .25rem !important;;
 }
   
 .callout-note.callout {
-    border-left-color: #005EB8;
-    background-color: white;
+    border-left-color: #005EB8 !important;;
+    background-color: white !important;;
 }
   
 .callout.callout-style-simple {
@@ -146,6 +146,7 @@ body {
   
 .title {
     font-size: 28px;
+    color: white !important;
     font-weight: lighter;
 }
   
@@ -172,17 +173,95 @@ h3, .h3 {
 
   
 .opensans {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif !important;;
 }
   
 body {
    -moz-osx-font-smoothing:grayscale;
    -webkit-font-smoothing:antialiased;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;;
 }
 
 .leaflet-container {
     border: 3px solid #1a5276;  /* Blue border */
     border-radius: 10px;  /* Rounded corners */
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Soft shadow */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #f0f4f5 !important;
+  color: #333 !important;
+}
+
+/* Headings */
+h3, h4, h5, h6 {
+  color: #005EB8 !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+
+/* Links */
+a {
+  color: #005EB8 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+/* Tables */
+table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+}
+
+table th, table td {
+  border: 1px solid #cdd4d9 !important;
+  padding: 0.75rem !important;
+  text-align: left !important;
+}
+
+table th {
+  background-color: #005EB8 !important;
+  color: #fff !important;
+}
+
+/* Callouts */
+.callout, .card {
+  border-radius: 12px !important;
+  border: 1px solid #cdd4d9 !important;
+  background-color: #ffffff !important;
+  padding: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #005EB8 !important;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  background-color: #003366 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #005EB8 !important;
+  color: #fff !important;
+  padding: 1rem !important;
+  text-align: center !important;
+}
+
+/* Custom Logo */
+.logo {
+  position: absolute !important;
+  top: 10px !important;
+  left: 10px !important;
+  width: 80px !important;
 }
