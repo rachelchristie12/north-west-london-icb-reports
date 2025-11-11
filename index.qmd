@@ -1,0 +1,53 @@
+---
+title: "North West London Health Intelligence Reports"
+format:
+  html:
+    # Table of Contents options
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    toc-title: Contents
+    number-sections: false
+    number-depth: 3
+    # Render options
+    theme: cosmo
+    grid:
+      body-width: 800px
+    css: NHS_report_theme.css
+    anchor-sections: false
+    html-math-method: katex
+    # Code options
+    code-tools:
+      source: false
+      toggle: false
+      caption: none
+    # code-fold: false
+    # code-summary: "Show code"
+    embed-resources: true
+    standalone: true
+    # URL options
+    link-external-icon: true
+    link-external-newwindow: true
+    # Reference options
+    citations-hover: true
+    footnotes-hover: true
+    # Callout options
+    callout-appearance: simple
+    callout-collapse: true
+    # Caption options
+    cap-location: bottom
+    # Title options
+    title-block-banner: '#005EB8'
+    backgroundcolor: '#f0f4f5'
+    # Set font
+    mainfont: 'Open Sans'
+---
+
+
+## Available Reports
+
+- [Health Equity Outcomes Report](health_equity_outcomes_report_202425.html)
+
+- [North West London Health Needs Assessment 2025](sna_2025.html)
+
+- [North West London Indices of Multiple Deprivation 2025](imd_report.html)
